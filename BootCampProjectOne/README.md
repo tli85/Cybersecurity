@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the configuration file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+[ELK Playbook](https://github.com/tli85/Cybersecurity/blob/main/Ansible/elk-playbook.yml)  
 
 This document contains the following details:
 - Description of the Topologu
@@ -72,7 +72,7 @@ This ELK server is configured to monitor the following machines:
 10.0.0.6
 
 We have installed the following Beats on these machines:
-Filebeat
+Filebeat,
 Metricbeat
 
 These Beats allow us to collect the following information from each machine:
@@ -87,4 +87,3 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include the IP address of the machine, placing it into the [elk] category.
 - Run the playbook, and navigate to http://<ELK.VM.EXTERNAL.IP>:5601/app/kibana to check that the installation worked as expected.
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
